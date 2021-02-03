@@ -15,6 +15,12 @@
     <link rel="stylesheet" href="css/owl-carousel.css" />
     <link rel="stylesheet" href="css/datepicker.css" />
     <link rel="stylesheet" href="css/templatemo-style.css" />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    /> -->
 
     <link
       href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900"
@@ -29,54 +35,35 @@
   </head>
 
   <body>
-    <div class="wrap">
+    <div
+      style="
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 100;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.096),
+          0 6px 5px 0 rgba(0, 0, 0, 0.062);
+      "
+      class="wrap"
+    >
       <header id="header">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
               <button id="primary-nav-button" type="button">Menu</button>
-              <a href="index.html"
-                ><div class="logo">
-                  <img src="img/logo.png" alt="Venue Logo" /></div
-              ></a>
+              <a href="index.html"></a>
+
               <nav id="primary-nav" class="dropdown cf">
+                <div class="logo">
+                  <img src="img/STRATCOS_LOGO.png" alt="Venue Logo" />
+                </div>
                 <ul class="dropdown menu">
-                  <li class="active"><a href="#">Popular</a></li>
-                  <li>
-                    <a href="#">Most Visited</a>
-                    <ul class="sub-menu">
-                      <li>
-                        <a href="#">Most Visited 1</a>
-                        <ul class="sub-menu">
-                          <li><a href="#">Sub Visited Menu 1</a></li>
-                          <li><a href="#">Sub Visited Two</a></li>
-                          <li><a href="#">Sub Visited Menu 3</a></li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="#">Most Visited 2</a>
-                        <ul class="sub-menu">
-                          <li><a href="#">Sub Visited Menu 4</a></li>
-                          <li><a href="#">Sub Visited Five</a></li>
-                          <li><a href="#">Sub Visited Menu 6</a></li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="#">Most Visited 3</a>
-                        <ul class="sub-menu">
-                          <li><a href="#">Sub Visited Menu 7</a></li>
-                          <li><a href="#">Sub Visited #8</a></li>
-                          <li><a href="#">Sub Visited Menu 9</a></li>
-                          <li><a href="#">Sub Visited #10</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
+                  <!-- <li class="active"><a href="#">Popular</a></li>
+                  
                     <a class="scrollTo" data-scrollTo="blog" href="#"
                       >Blog Entries</a
                     >
-                  </li>
+                  </li> -->
                   <li>
                     <a class="scrollTo" data-scrollTo="services" href="#"
                       >Our Services</a
@@ -113,146 +100,13 @@
       </div>
     </section>
 
-    <section class="featured-places" id="blog">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-heading">
-              <h1>Blogs</h1>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="featured-item">
-              <div class="thumb">
-                <img src="img/featured_item_1.jpg" alt="" />
-                <div class="overlay-content">
-                  <ul>
-                    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                  </ul>
-                </div>
-                <div class="date-content">
-                  <h6>28</h6>
-                  <span>August</span>
-                </div>
-              </div>
-              <div class="down-content">
-                <h4>Lorem ipsum dolor</h4>
-                <span>Category One</span>
-                <p>
-                  Vestibulum id est eu felis vulputate hendrerit. Suspendisse
-                  dapibus turpis in dui pulvinar imperdiet. Nunc consectetur.
-                </p>
-                <div class="row">
-                  <div class="col-md-6 first-button">
-                    <div class="text-button">
-                      <a href="#">Add to favorites</a>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="text-button">
-                      <a href="#">Continue Reading</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="featured-item">
-              <div class="thumb">
-                <img src="img/featured_item_2.jpg" alt="" />
-                <div class="overlay-content">
-                  <ul>
-                    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                  </ul>
-                </div>
-                <div class="date-content">
-                  <h6>20</h6>
-                  <span>September</span>
-                </div>
-              </div>
-              <div class="down-content">
-                <h4>Nullam nibh lacus</h4>
-                <span>Category Two</span>
-                <p>
-                  Mauris sit amet quam congue, pulvinar urna et, congue diam.
-                  Suspendisse eu lorem massa. Integer sit amet posuere.
-                </p>
-                <div class="row">
-                  <div class="col-md-6 first-button">
-                    <div class="text-button">
-                      <a href="#">Add to favorites</a>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="text-button">
-                      <a href="#">Continue Reading</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="featured-item">
-              <div class="thumb">
-                <img src="img/featured_item_3.jpg" alt="" />
-                <div class="overlay-content">
-                  <ul>
-                    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                  </ul>
-                </div>
-                <div class="date-content">
-                  <h6>12</h6>
-                  <span>October</span>
-                </div>
-              </div>
-              <div class="down-content">
-                <h4>Suspendisse semper non</h4>
-                <span>Category Three</span>
-                <p>
-                  Praesent iaculis gravida elementum. Proin fermentum neque
-                  facilisis semper pharetra. Sed vestibulum vehicula tincidunt.
-                </p>
-                <div class="row">
-                  <div class="col-md-6 first-button">
-                    <div class="text-button">
-                      <a href="#">Add to favorites</a>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="text-button">
-                      <a href="#">Continue Reading</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <section class="our-services" id="services">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="section-heading">
-              <span>Our Services</span>
+              <div>Our Services</div>
 
               <h2>Our Consultations and Trainings</h2>
             </div>
@@ -262,7 +116,7 @@
           <div class="col-md-4">
             <div class="service-item">
               <div class="icon">
-                <img src="img/service_icon_1.png" alt="" />
+                <img style="width: 30%" src="img/bussiness-man.png" alt="" />
               </div>
               <h4>Finance Consultancy</h4>
               <p>
@@ -278,7 +132,11 @@
           <div class="col-md-4">
             <div class="service-item">
               <div class="icon">
-                <img src="img/service_icon_2.png" alt="" />
+                <img
+                  style="width: 30%"
+                  src="img/personal-development.png"
+                  alt=""
+                />
               </div>
               <h4>Personality Development Programme</h4>
               <p>
@@ -293,7 +151,7 @@
           <div class="col-md-4">
             <div class="service-item">
               <div class="icon">
-                <img src="img/service_icon_3.png" alt="" />
+                <img style="width: 30%" src="img/idea.png" alt="" />
               </div>
               <h4>Process Innovation</h4>
               <p>
@@ -317,7 +175,7 @@
           <div class="col-md-4">
             <div class="service-item">
               <div class="icon">
-                <img src="img/service_icon_1.png" alt="" />
+                <img src="img/talking.png" style="width: 30%" alt="" />
               </div>
               <h4>HR and IR Consultancy</h4>
               <p>
@@ -331,7 +189,7 @@
           <div class="col-md-4">
             <div class="service-item">
               <div class="icon">
-                <img src="img/service_icon_2.png" alt="" />
+                <img style="width: 30%" src="img/implement.png" alt="" />
               </div>
               <h4>Systems Implementation</h4>
               <p>
@@ -346,7 +204,7 @@
           <div class="col-md-4">
             <div class="service-item">
               <div class="icon">
-                <img src="img/service_icon_3.png" alt="" />
+                <img src="img/strategy.png" style="width: 30%" alt="" />
               </div>
               <h4>Strategizing</h4>
               <p>
@@ -394,7 +252,7 @@
         <div class="col-md-10 col-md-offset-1">
           <div class="wrapper">
             <div class="section-heading">
-              <span>Contact Us</span>
+              <div>Contact Us</div>
               <h2>
                 Where does your business need more support? We offer a broad
                 range of services and packages that be customized to your needs.
@@ -415,7 +273,7 @@
                     <div class="row">
                       <div class="col-md-12">
                         <div class="section-heading">
-                          <span>Talk To Us</span>
+                          <div>Talk To Us</div>
                           <h2>Let's have a discussion</h2>
                         </div>
                       </div>
@@ -471,7 +329,7 @@
                       <div class="col-md-12">
                         <div class="content">
                           <div class="section-heading">
-                            <span>More About Us</span>
+                            <div>More About Us</div>
                             <h2>StratCos</h2>
                           </div>
                           <p>
@@ -481,15 +339,16 @@
                           </p>
                           <ul>
                             <li>
-                              <span>Phone:</span><a href="#">+91955255828</a>
+                              <div>Phone:</div>
+                              <a href="#">+91955255828</a>
                             </li>
                             <li>
-                              <span>Email:</span
-                              ><a href="#">innovativebuisness2021@gmail.com</a>
+                              <div>Email:</div>
+                              <a href="#">innovativebuisness2021@gmail.com</a>
                             </li>
                             <li>
-                              <span>Address:</span
-                              ><a href="#"
+                              <div>Address:</div>
+                              <a href="#"
                                 >innovativebuisnesssolutions4.godaddysites.com</a
                               >
                             </li>
@@ -529,7 +388,7 @@
           <div class="col-md-5">
             <div class="about-veno">
               <div class="logo">
-                <img src="img/footer_logo.png" alt="Venue Logo" />
+                <img src="img/STRATCOS_LOGO.png" alt="Venue Logo" />
               </div>
               <p>
                 Our service includes a comprehensive consultation to help
@@ -609,14 +468,17 @@
                 success.
               </p>
               <ul>
-                <li><span>Phone:</span><a href="#">+91955255828</a></li>
                 <li>
-                  <span>Email:</span
-                  ><a href="#">innovativebuisness2021@gmail.com</a>
+                  <div>Phone:</div>
+                  <a href="#">+91955255828</a>
                 </li>
                 <li>
-                  <span>Address:</span
-                  ><a href="#">innovativebuisnesssolutions4.godaddysites.com</a>
+                  <div>Email:</div>
+                  <a href="#">innovativebuisness2021@gmail.com</a>
+                </li>
+                <li>
+                  <div>Address:</div>
+                  <a href="#">innovativebuisnesssolutions4.godaddysites.com</a>
                 </li>
               </ul>
             </div>
@@ -648,5 +510,10 @@
     <script src="js/datepicker.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
