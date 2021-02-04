@@ -135,7 +135,6 @@ section {
 
 #primary-nav {
   overflow: hidden;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.096), 0 6px 5px 0 rgba(0, 0, 0, 0.062);
 }
 
 #header .logo img {
@@ -268,6 +267,7 @@ section {
   right: 15px;
   left: 0;
   z-index: 999999;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.096), 0 6px 5px 0 rgba(0, 0, 0, 0.062);
 }
 
 #primary-nav.mobile .menu {
@@ -1063,8 +1063,8 @@ section.contact .section-heading {
 
 footer {
   margin-top: 80px;
-  padding: 80px 0px 70px 0px;
   border-top: 1px solid #ddd;
+  background-color: #f4f4f4;
 }
 
 footer .footer-heading h4 {
@@ -1227,24 +1227,15 @@ footer .contact-info ul li a {
   }
 }
 
-.column {
-  float: left;
-  width: 33.33%;
-}
-
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.column img {
-  margin-left: 75px;
-  margin-top: 33px;
-}
-
 .highlited-banner {
-  background-color: rgba(238, 234, 234, 0.897);
+  padding: 2rem 0;
+  background-color: #f4f4f4;
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
@@ -1252,4 +1243,21 @@ footer .contact-info ul li a {
 
 .highlited-banner::-webkit-scrollbar {
   display: none;
+}
+
+.highlited-banner img {
+  width: 5rem;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+
+.highlited-banner .desc {
+  overflow-wrap: normal;
+}
+.col p {
+  white-space: initial;
+}
+
+#contact {
+  padding: 80px 0px 70px 0px;
 }
