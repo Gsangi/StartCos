@@ -686,11 +686,11 @@ section.our-services .service-item h4 {
 .accordion li a {
   border: 1px solid #ddd;
 }
-.accordion li:last-child a {
+/* .accordion li:last-child a {
 }
 .accordion li p {
   display: none;
-}
+} */
 .accordion a {
   width: 100%;
   display: block;

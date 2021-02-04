@@ -1,0 +1,66 @@
+body{
+    background-color: #fcfcfc;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .image-section{
+    width: 70%;
+    box-shadow: 30px 30px 10px  rgba(228, 227, 227, 0.993);
+    margin-bottom: 56px;
+    /* border: 0.65px solid rgb(214, 214, 214); */
+  }
+
+  .tagwhoweare{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+      margin-left: 200px;
+      margin-top: 50px;
+  }
+
+
+  .taglineabout{
+    font-family: 'Nunito Sans', sans-serif;
+      font-size: 20px;
+    width: 60%;
+    margin-top: 90px;
+    margin-left: -20px;
+    color: #626666;
+  }
+
+  .Aboutuspara{
+      width: 60%;
+      font-size: 21.2px;
+      color: #626666;
+      font-weight:normal;
+      line-height: 3.5rem;
+      font-family: 'Nunito Sans', sans-serif;
+  }
+
+  .aboutwhole{
+      margin-top: 80px;
+      margin-left: -60px;
+  }
+
+
+  .visionpara{
+    text-align: center;
+    padding: 0 13rem;
+    font-size: 1.7rem;
+  }
+/* .heading-vision{
+    border-radius: 25px;
+  border: 1px solid #cccbcb;
+   padding: 20px;
+   text-align: center; 
+} */
