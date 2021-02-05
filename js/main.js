@@ -340,6 +340,7 @@ jQuery(document).ready(function ($) {
     );
     return false;
   });
+  console.log(document.getElementById("slid-show-slider").children[0]);
 });
 
 setInterval(() => {

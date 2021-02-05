@@ -118,13 +118,13 @@ section {
 #primary-nav-button:before {
   content: "\2261";
   display: inline-block;
-  background-color: #4883ff;
+  background-color: #7a8479;
   font-size: 36px;
   font-style: normal;
   font-weight: normal;
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
   color: inherit;
   border: none;
 }
@@ -145,7 +145,7 @@ section {
   float: left;
   padding-left: 2%;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 5px 0;
 }
 
 .menu {
@@ -176,7 +176,7 @@ section {
 #primary-nav li a {
   color: #121212;
   font-weight: bold;
-  line-height: 100px;
+  line-height: 70px;
   padding: 0px 15px;
   font-size: 15px;
   font-weight: 400;
@@ -261,7 +261,7 @@ section {
 #primary-nav.mobile {
   display: none;
   position: absolute;
-  top: 100px;
+  top: 70px;
   background: #fff;
   width: 100%;
   right: 15px;
@@ -1447,20 +1447,35 @@ footer {
 }
 
 .slide1 {
-  padding-top: 600px;
+  padding-top: 400px;
   background-position: center;
   background-size: cover;
+  opacity: 0.8;
   background-image: url(../img/slide2.jpg);
 }
 .slide2 {
-  padding-top: 600px;
+  padding-top: 400px;
   background-position: center;
   background-size: cover;
+  opacity: 0.8;
   background-image: url(../img/slide3.jpg);
 }
 .slide3 {
-  padding-top: 600px;
+  padding-top: 400px;
   background-position: center;
   background-size: cover;
+  opacity: 0.8;
   background-image: url(../img/slide4.jpg);
+}
+
+.slide-show-text {
+  background-color: #2727271c;
+  height: 200px;
+}
+
+.slide-show-text h1 {
+  color: white;
+}
+.slide-show-text p {
+  color: #202020;
 }
