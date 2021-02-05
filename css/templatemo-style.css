@@ -1413,9 +1413,11 @@ footer{
   font-weight: 500;
   cursor: pointer;
   transition: .3s;
+  background-color: #dfdfdf;
 }
 .right form .btn button:hover{
-  background: #000;
+  background: hsl(0deg 0% 72%);
+
 }
 .bottom center{
   padding: 5px;
