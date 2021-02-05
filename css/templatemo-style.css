@@ -1262,89 +1262,82 @@ footer .contact-info ul li a {
   padding: 80px 0px 70px 0px;
 }
 
- .carousel-item{
-  height: 600px;
+.carousel-item {
   opacity: 90%;
-} 
+}
 
-
-
-
-
-
-
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+* {
   margin: 0;
   padding: 0;
   color: #4b4b4b;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-.content1{
+.content1 {
   position: relative;
   margin: 130px auto;
   text-align: center;
   padding: 0 20px;
 }
-.content1 .text{
+.content1 .text {
   font-size: 2.5rem;
   font-weight: 600;
   color: #202020;
 }
-.content1 .p{
+.content1 .p {
   font-size: 2.1875rem;
   font-weight: 600;
   color: #202020;
 }
-footer{
+footer {
   position: relative;
   bottom: 0px;
   width: 100%;
-  background:#dfdfdf;
+  background: #dfdfdf;
 }
-.main-content{
+.main-content {
   display: flex;
-  padding: 20px 5px 40px; 
+  padding: 20px 5px 40px;
 }
-.main-content .box{
+.main-content .box {
   flex-basis: 50%;
   padding: 10px 20px;
 }
-.box h2{
+.box h2 {
   font-size: 1.125rem;
   font-weight: 600;
   text-transform: uppercase;
 }
-.box .content{
+.box .content {
   margin: 20px 0 0 0;
   position: relative;
 }
-.box .content:before{
+.box .content:before {
   position: absolute;
-  content: '';
+  content: "";
   top: -10px;
   height: 2px;
   width: 100%;
 }
-.box .content:after{
+.box .content:after {
   position: absolute;
-  content: '';
+  content: "";
   height: 2px;
   width: 15%;
-  background:#4883ff;
+  background: #333333;
   top: -10px;
 }
-.left .content p{
+.left .content p {
   text-align: justify;
 }
-.left .content .social{
+.left .content .social {
   margin: 20px 0 0 0;
 }
-.left .content .social a{
+.left .content .social a {
   padding: 0 2px;
 }
-.left .content .social a span{
+.left .content .social a span {
   height: 40px;
   width: 40px;
   background: #1a1a1a;
@@ -1354,10 +1347,10 @@ footer{
   border-radius: 5px;
   transition: 0.3s;
 }
-.left .content .social a span:hover{
+.left .content .social a span:hover {
   background: #f12020;
 }
-.center .content .fas{
+.center .content .fas {
   font-size: 1.4375rem;
   height: 45px;
   width: 45px;
@@ -1367,43 +1360,43 @@ footer{
   transition: 0.3s;
   cursor: pointer;
 }
-.center .content .fas:hover{
+.center .content .fas:hover {
   background: hsl(0deg 0% 72%);
 }
-.center .content .text{
+.center .content .text {
   font-size: 13px;
   font-weight: 500;
   padding-left: 10px;
 }
-.center .content .phone{
+.center .content .phone {
   margin: 15px 0;
 }
-.right form .text{
+.right form .text {
   font-size: 13px;
   margin-bottom: 2px;
   color: #333333;
 }
-.right form .msg{
+.right form .msg {
   margin-top: 5px;
 }
-.right form input, .right form textarea{
+.right form input,
+.right form textarea {
   width: 100%;
   font-size: 13px;
   padding-left: 10px;
   border: 0px;
- 
 }
 .right form input:focus,
-.right form textarea:focus{
-  outline-color: #3498db;
+.right form textarea:focus {
+  outline-color: #333333;
 }
-.right form input{
+.right form input {
   height: 40px;
 }
-.right form .btn{
+.right form .btn {
   margin-top: 10px;
 }
-.right form .btn button{
+.right form .btn button {
   height: 40px;
   width: 100%;
   border: none;
@@ -1412,45 +1405,62 @@ footer{
   font-size: 1.0625rem;
   font-weight: 500;
   cursor: pointer;
-  transition: .3s;
+  transition: 0.3s;
   background-color: #dfdfdf;
 }
-.right form .btn button:hover{
+.right form .btn button:hover {
   background: hsl(0deg 0% 72%);
-
 }
-.bottom center{
+.bottom center {
   padding: 5px;
   font-size: 0.9375rem;
   background: #151515;
 }
-.bottom center span{
+.bottom center span {
   color: #656565;
 }
-.bottom center a{
+.bottom center a {
   color: #f12020;
   text-decoration: none;
 }
-.bottom center a:hover{
+.bottom center a:hover {
   text-decoration: underline;
 }
 
-.email, .msg {
-  padding-top: 4px; 
-
+.email,
+.msg {
+  padding-top: 4px;
 }
 
 @media screen and (max-width: 900px) {
-  footer{
+  footer {
     position: relative;
     bottom: 0px;
   }
-  .main-content{
+  .main-content {
     flex-wrap: wrap;
     flex-direction: column;
   }
-  .main-content .box{
+  .main-content .box {
     margin: 5px 0;
   }
 }
 
+.slide1 {
+  padding-top: 600px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/slide2.jpg);
+}
+.slide2 {
+  padding-top: 600px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/slide3.jpg);
+}
+.slide3 {
+  padding-top: 600px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/slide4.jpg);
+}
