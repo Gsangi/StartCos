@@ -1,0 +1,240 @@
+body {
+    font-family: "Open Sans", sans-serif;
+  }
+  h1 {
+    font-family: "Playfair Display", serif;
+  }
+  
+  header {
+      z-index: 10;
+    position: fixed;
+    box-shadow: 0 2px 4px 0 rgba(92, 92, 92, 0.2),
+      0 3px 5px 0 rgba(73, 73, 73, 0.19);
+    background-color: white;
+    width: 100%;
+    text-align: center;
+  }
+  
+  header div {
+    padding: 22px 0;
+  }
+  
+  @media only screen and (max-width: 750px) {
+    header div {
+      /* text-align: center; */
+    }
+    .about-us {
+      text-align: center;
+    }
+  }
+  
+  .about-us {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  
+  .about-us h1 {
+    font-size: 5rem;
+    text-align: center;
+  }
+  
+  .vi-msg {
+    text-align: center;
+  }
+  
+  .vi-msg img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+  }
+  
+  .vi-msg .col-md {
+    margin-top: 22px;
+  }
+  
+  .vi-msg p {
+    padding: 10px 44px;
+  }
+  
+  .blog img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+  }
+  
+  .sub-footer p {
+      text-align: center;
+      display: inline-block;
+      background-color: #f4f4f4;
+      width: 100%;
+      margin-bottom: 0px;
+      padding: 30px 0px;
+      font-size: 15px;
+      color: #aaaaaa;
+    }
+  
+  .vision-logo{
+    height:60px;
+  }
+  
+  .three-boxes{
+    padding: 30px;
+    text-align: center;
+  }
+  
+  
+  footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background: #dfdfdf;
+  }
+  .main-content {
+    display: flex;
+    padding: 20px 5px 40px;
+  }
+  .main-content .box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+  }
+  .box h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .box .content {
+    margin: 20px 0 0 0;
+    position: relative;
+  }
+  .box .content:before {
+    position: absolute;
+    content: "";
+    top: -10px;
+    height: 2px;
+    width: 100%;
+  }
+  .box .content:after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 15%;
+    background: #333333;
+    top: -10px;
+  }
+  .left .content p {
+    text-align: justify;
+  }
+  .left .content .social {
+    margin: 20px 0 0 0;
+  }
+  .left .content .social a {
+    padding: 0 2px;
+  }
+  .left .content .social a span {
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  .left .content .social a span:hover {
+    background: #f12020;
+  }
+  .center .content .fas {
+    font-size: 1.4375rem;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .center .content .fas:hover {
+    background: hsl(0deg 0% 72%);
+  }
+  .center .content .text {
+    font-size: 13px;
+    font-weight: 500;
+    padding-left: 10px;
+  }
+  .center .content .phone {
+    margin: 15px 0;
+  }
+  .right form .text {
+    font-size: 13px;
+    margin-bottom: 2px;
+    color: #333333;
+  }
+  .right form .msg {
+    margin-top: 5px;
+  }
+  .right form input,
+  .right form textarea {
+    width: 100%;
+    font-size: 13px;
+    padding-left: 10px;
+    border: 0px;
+  }
+  .right form input:focus,
+  .right form textarea:focus {
+    outline-color: #333333;
+  }
+  .right form input {
+    height: 40px;
+  }
+  .right form .btn {
+    margin-top: 10px;
+  }
+  .right form .btn button {
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #dfdfdf;
+  }
+  .right form .btn button:hover {
+    background: hsl(0deg 0% 72%);
+  }
+  .bottom center {
+    padding: 5px;
+    font-size: 0.9375rem;
+    background: #151515;
+  }
+  .bottom center span {
+    color: #656565;
+  }
+  .bottom center a {
+    color: #f12020;
+    text-decoration: none;
+  }
+  .bottom center a:hover {
+    text-decoration: underline;
+  }
+  
+  .email,
+  .msg {
+    padding-top: 4px;
+  }
+  
+  @media screen and (max-width: 900px) {
+    footer {
+      position: relative;
+      bottom: 0px;
+    }
+    .main-content {
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .main-content .box {
+      margin: 5px 0;
+    }
+  }
