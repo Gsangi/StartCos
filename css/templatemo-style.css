@@ -1469,13 +1469,16 @@ footer {
 }
 
 .slide-show-text {
-  background-color: #2727271c;
   height: 200px;
+  background-color: #f1f1f14b;
 }
 
 .slide-show-text h1 {
-  color: white;
-}
-.slide-show-text p {
-  color: #202020;
+  font-size: 4rem;
+  display: flex;
+  padding-top: 50px;
+  padding-left: 20px;
+    text-align: center;
+    /* color: #E9F1F2; */
+    color: black;
 }

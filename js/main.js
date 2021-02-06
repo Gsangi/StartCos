@@ -348,12 +348,15 @@ setInterval(() => {
   if (element.classList[0] === "slide1") {
     element.classList.remove("slide1");
     element.classList.add("slide2");
+    element.children[0].children[0].innerHTML="Process Improvement";
   } else if (element.classList[0] === "slide2") {
     element.classList.remove("slide2");
     element.classList.add("slide3");
+    element.children[0].children[0].innerHTML="Strategy Implementation";
   } else {
     element.classList.remove("slide3");
     element.classList.add("slide1");
+    element.children[0].children[0].innerHTML="Finance Consulting";
   }
 }, 6000);
 
