@@ -97,6 +97,7 @@ jQuery(document).ready(function ($) {
 
   jQuery(function ($) {
     $.fn.responsivenav = function (args) {
+      console.log(this, "Important");
       // Default settings
       var defaults = {
         responsive: true,
@@ -340,7 +341,6 @@ jQuery(document).ready(function ($) {
     );
     return false;
   });
-  console.log(document.getElementById("slid-show-slider").children[0]);
 });
 
 setInterval(() => {

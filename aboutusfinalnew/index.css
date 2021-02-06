@@ -5,18 +5,18 @@ h1 {
   font-family: "Playfair Display", serif;
 }
 
-header {
+/* header {
   position: fixed;
   box-shadow: 0 2px 4px 0 rgba(92, 92, 92, 0.2),
     0 3px 5px 0 rgba(73, 73, 73, 0.19);
   background-color: white;
   width: 100%;
   text-align: center;
-}
+} */
 
-header div {
+/* header div {
   padding: 22px 0;
-}
+} */
 
 @media only screen and (max-width: 750px) {
   header div {
@@ -62,25 +62,24 @@ header div {
 }
 
 .sub-footer p {
-    text-align: center;
-    display: inline-block;
-    background-color: #f4f4f4;
-    width: 100%;
-    margin-bottom: 0px;
-    padding: 30px 0px;
-    font-size: 15px;
-    color: #aaaaaa;
-  }
-
-.vision-logo{
-  height:60px;
+  text-align: center;
+  display: inline-block;
+  background-color: #f4f4f4;
+  width: 100%;
+  margin-bottom: 0px;
+  padding: 30px 0px;
+  font-size: 15px;
+  color: #aaaaaa;
 }
 
-.three-boxes{
+.vision-logo {
+  height: 60px;
+}
+
+.three-boxes {
   padding: 30px;
   text-align: center;
 }
-
 
 footer {
   position: relative;
@@ -236,4 +235,247 @@ footer {
   .main-content .box {
     margin: 5px 0;
   }
+}
+
+/* Nav bar css */
+
+header {
+  position: fixed;
+  z-index: 10;
+}
+
+.navlogo {
+  height: auto;
+  padding: 5px 15px;
+  margin-left: 15px;
+}
+
+.navlinks {
+  font-size: 0.9rem;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.carousel .item {
+  height: 300px;
+}
+
+.item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
+
+.navbar {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* Nav barr */
+
+#header {
+  overflow: visible;
+  position: relative;
+  background-color: #fff;
+}
+
+#header .logo img {
+  object-fit: cover;
+
+  height: auto;
+  width: 185px;
+  float: left;
+  padding-left: 2%;
+  margin: 0 auto;
+  padding: 5px 0;
+}
+
+#primary-nav-button {
+  background: transparent;
+  display: none;
+  position: absolute;
+  border: none;
+  bottom: 0;
+  right: 15px;
+  top: 0;
+  z-index: 9;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0;
+}
+
+#primary-nav-button:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+#primary-nav-button.selected {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+#primary-nav-button:before {
+  content: "\2261";
+  display: inline-block;
+  background-color: #7a8479;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: normal;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  color: inherit;
+  border: none;
+}
+
+#primary-nav-button.mobile {
+  display: inline-block;
+}
+
+#primary-nav {
+  overflow: hidden;
+}
+
+#primary-nav li a {
+  color: #121212;
+  font-weight: bold;
+  line-height: 70px;
+  padding: 0px 15px;
+  font-size: 15px;
+  font-weight: 400;
+  transition: all 0.5s;
+}
+
+#primary-nav li > a:hover,
+#primary-nav li.selected > a {
+  color: #4883ff;
+}
+
+#primary-nav .sub-menu {
+  background: #fff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  min-width: 160px;
+  z-index: 200;
+}
+
+#primary-nav .sub-menu li {
+  border-bottom: 1px solid #ddd;
+}
+
+#primary-nav .sub-menu li:last-child {
+  border-bottom: 0;
+}
+
+#primary-nav .sub-menu .downarrow:before {
+  content: "\25b8";
+}
+
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+  visibility: hidden;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+.menu {
+  float: right;
+}
+
+.menu li {
+  float: left;
+  margin-left: 30px;
+  position: relative;
+  line-height: 100px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu .sub-menu li {
+  width: 100%;
+  margin-left: 0px;
+}
+
+.menu li a {
+  display: block;
+  text-decoration: none;
+}
+.menu .sub-menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  max-height: 1000px;
+}
+
+.menu .sub-menu li {
+  line-height: 40px;
+}
+
+.menu .sub-menu.hide {
+  display: none;
+}
+/* end */
+
+
+
+
+#primary-nav.mobile li {
+  width: 100%;
+  margin: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+#primary-nav.mobile li:first-child {
+  width: 100%;
+  margin: 0;
+  border-top: 1px solid #ddd;
+}
+
+#primary-nav.mobile li.selected > a {
+  border-bottom: 1px solid #ddd;
+}
+
+#primary-nav.mobile li:last-child {
+  border: none;
+}
+
+#primary-nav.mobile .sub-menu {
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+#primary-nav.mobile .sub-menu .downarrow {
+  top: 15px;
+  position: absolute;
+  right: 15px;
+}
+
+.mobile .downarrow,
+.mobile .sub-menu .downarrow {
+  position: absolute;
+  top: 42px;
+  right: 25px;
+}
+
+#primary-nav.mobile .sub-menu .downarrow:before {
+  content: "\25be";
+}
+#primary-nav-button.mobile {
+  display: inline-block;
 }

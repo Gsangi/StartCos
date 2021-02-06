@@ -14,10 +14,63 @@ body {
     width: 100%;
     text-align: center;
   }
-  
+
+  /* nav bar css */
+
+  header{
+    position: fixed;
+    z-index: 10;
+   }
+   
+   .navlogo{
+       height:auto;
+       padding: 5px 15px;
+       margin-left: 15px;
+       
+   }
+   .navbar{
+     padding-top: 0;
+     padding-bottom:0;
+   }
+    .navlinks{
+       font-size: 1.2rem;
+   } 
+   
+   .navbar-nav { 
+       margin-left: auto;
+       margin-right: 50px; 
+   } 
+   
+   .carousel .item {
+       height: 300px;
+     }
+     
+     .item img {
+         position: absolute;
+         top: 0;
+         left: 0;
+         min-height: 300px;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*   
   header div {
     padding: 22px 0;
-  }
+  } */
   
   @media only screen and (max-width: 750px) {
     header div {
@@ -238,3 +291,9 @@ body {
       margin: 5px 0;
     }
   }
+
+  
+
+
+
+  
