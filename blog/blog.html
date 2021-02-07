@@ -225,9 +225,11 @@
           <div class="right box">
             <h2>Contact us</h2>
             <div class="content">
-              <form action="#">
+              <form action="mailto:rajesh@stratcos.com" method="post" enctype="text/plain">
                 <div class="name">
                   <input
+
+                  name = "Name "
                     style="margin: 0px 0px 5px"
                     type="name"
                     placeholder="Name *"
@@ -236,12 +238,13 @@
                 </div>
 
                 <div class="phone">
-                  <input type="text" placeholder="Phone number *" required />
+                  <input name="Phone " type="text" placeholder="Phone number *" required />
                 </div>
 
                 <div class="msg">
                   <textarea
                     type="text"
+                    name="Message "
                     placeholder="Message *"
                     style="height: 100px; padding-top: 5px"
                     required
